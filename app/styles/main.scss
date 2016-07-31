@@ -12,7 +12,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 body {
   padding: 0;
-}
+} 
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -47,10 +47,11 @@ body {
   margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
+/* Main area to find the weather in different cities */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background-color: #E6E6FA; 
 
   .btn {
     font-size: 21px;
