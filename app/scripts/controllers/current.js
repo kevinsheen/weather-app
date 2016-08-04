@@ -33,7 +33,7 @@ $scope.saveCity = function(city){
                 save = false;
             }
         }
-        if (save==true){
+        if (save===true){
             $localStorage.savedCities.push(cityData);
         } else {
             console.log('city already saved');
